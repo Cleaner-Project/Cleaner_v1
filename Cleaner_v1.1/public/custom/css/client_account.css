@@ -1,0 +1,248 @@
+body {
+    background: #eeeeee;
+    }
+    .form-inline {
+        display: inline-block;
+    }
+    .navbar {		
+        background: #fff;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-bottom: 1px solid #d6d6d6;
+        box-shadow: 0 0 4px rgba(0,0,0,.1);
+    }
+    .nav img {
+        border-radius: 50%;
+        width: 36px;
+        height: 36px;
+        margin: -8px 0;
+        float: left;
+        margin-right: 10px;
+    }
+    .navbar .navbar-brand {
+        color: #555;
+        padding-left: 0;
+        padding-right: 50px;
+        font-family: 'Merienda One', sans-serif;
+    }
+    .navbar .navbar-brand i {
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .search-box {
+        position: relative;
+    }	
+    .search-box input {
+        box-shadow: none;
+        padding-right: 35px;
+        border-radius: 3px !important;
+    }
+    .search-box .input-group-addon {
+        min-width: 35px;
+        border: none;
+        background: transparent;
+        position: absolute;
+        right: 0;
+        z-index: 9;
+        padding: 7px;
+        height: 100%;
+    }
+    .search-box i {
+        color: #a0a5b1;
+        font-size: 19px;
+    }
+    .navbar ul li i {
+        font-size: 18px;
+    }
+    .navbar .dropdown-menu i {
+        font-size: 16px;
+        min-width: 22px;
+    }
+    .navbar .dropdown.open > a {
+        background: none !important;
+    }
+    .navbar .dropdown-menu {
+        border-radius: 1px;
+        border-color: #e5e5e5;
+        box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    }
+    .navbar .dropdown-menu li a {
+        color: #777;
+        padding: 8px 20px;
+        line-height: normal;
+    }
+    .navbar .dropdown-menu li a:hover, .navbar .dropdown-menu li a:active {
+        color: #333;
+    }	
+    .navbar .dropdown-menu .material-icons {
+        font-size: 21px;
+        line-height: 16px;
+        vertical-align: middle;
+        margin-top: -2px;
+    }
+    .navbar .badge {
+        background: #f44336;
+        font-size: 11px;
+        border-radius: 20px;
+        position: absolute;
+        min-width: 10px;
+        padding: 4px 6px 0;
+        min-height: 18px;
+        top: 5px;
+    }
+    .navbar ul.nav li a.notifications, .navbar ul.nav li a.messages {
+        position: relative;
+        margin-right: 10px;
+    }
+    .navbar ul.nav li a.messages {
+        margin-right: 20px;
+    }
+    .navbar a.notifications .badge {
+        margin-left: -8px;
+    }
+    .navbar a.messages .badge {
+        margin-left: -4px;
+    }	
+    .navbar .active a, .navbar .active a:hover, .navbar .active a:focus {
+        background: transparent !important;
+    }
+    @media (min-width: 1200px){
+        .form-inline .input-group {
+            width: 300px;
+            margin-left: 30px;
+        }
+    }
+    @media (max-width: 1199px){
+        .form-inline {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            width: 100%;
+        }
+    }
+
+   
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+    body {
+        background: #eee;
+        font-family: 'Rubik', sans-serif
+    }
+   
+    .container {
+        margin-top: 200px !important
+    }
+   
+    .contianer.card-img {
+        width: 250px
+    }
+   
+    button:focus {
+        box-shadow: none !important;
+        outline-width: 0
+    }
+   
+    .card {
+        border-radius: 11px;
+        width: calc(330px + 10 * ((100vw - 320px) / 680));
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+        border-top-color: #F9E8C7 !important
+    }
+   
+    .card-header {
+        border: 0;
+        border-top: 14px solid #F9E8C7 !important;
+        border-radius: 11px !important
+    }
+   
+    .btn-outline-success {
+        border-radius: 20px !important;
+        border: 2px solid rgb(140, 243, 146)
+    }
+   
+    .btn-outline-success:hover {
+        color: #fff !important
+    }
+   
+    .img {
+        width: 350px !important
+    }
+   
+    .card-body {
+        border-radius: 9px !important
+    }
+   
+    .btn-outline-success:active,
+    .btn-outline-success.active {
+        box-shadow: none !important;
+        outline: none !important
+    }
+   
+    @media (max-width: 401px) {
+        .card {
+            width: unset
+        }
+    }
+   
+    mark {
+        background-color: #F9E8C7 !important
+    }
+   
+    small {
+        letter-spacing: 2px
+    }
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ body {
+     background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+     font-family: 'Rubik', sans-serif;
+     background: #455A64;
+     height: 100 !important
+ }
+
+ .container-fluid {
+     overflow: hidden;
+     margin-top: 250px;
+     background: #262626;
+     color: #627482 !important;
+     margin-bottom: 0;
+     padding-bottom: 0
+ }
+
+ small {
+     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .bold-text {
+     color: #989c9e !important
+ }
+
+ .mt-55 {
+     margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ h3 {
+     font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+ .social {
+     font-size: 21px !important
+ }
+
+ .rights {
+     font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+ }
+
+
+ 
